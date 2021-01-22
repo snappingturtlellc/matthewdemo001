@@ -1,0 +1,29 @@
+@keyframes slideAnimation {
+    from {
+        top: 0;
+        color: purple;
+        transform: rotate(0deg);
+    }
+    50% {
+        top: 500px;
+        color: orange;
+        transform: rotate(180deg);
+    }
+    to {
+        top: 0;
+        color: purple;
+        transform: rotate(0deg);
+    }
+}
+
+body {
+    background: azure;
+}
+
+#title {
+    display: none;
+    position: relative;
+    animation-name: slideAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}

@@ -2,9 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Matthew's Demo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>Hello Matthew, this is cool</div>
+    <div id="title">Hello Matthew, this is cool</div>
+    <script>
+        setTimeout(() => {
+            const e = document.getElementById('title');
+            e.style.display = 'block';
+            e.style.color = 'red';
+        }, 1000);
+    </script>
 </body>
 </html>
